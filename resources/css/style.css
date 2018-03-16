@@ -4,10 +4,8 @@ html {
 
 .upset {
 
-  padding-top: 4rem;
+  padding-top: 64px;
 }
-
-
 
 
 header{
@@ -18,12 +16,18 @@ header{
   width: 100%;
   position: fixed;
   z-index: 10;
+  height: 4rem;
 }
 
 header .logo {
   display: flex;
   align-items: center;
   padding-left: 1.5rem;
+}
+
+.logo h3{
+  display: inline-block;
+  font-size: 2rem;
 }
 
 header ul {
@@ -39,8 +43,11 @@ header ul li {
 
 .banner {
   display: flex;
+  background-color: gray;
 }
 
 .banner img {
   width: 60%;
+  height: 60%;
+  padding: 2rem 1.5rem;
 }
