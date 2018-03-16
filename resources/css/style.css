@@ -1,10 +1,12 @@
 html {
   font-size: 16px;
+
 }
 
 .upset {
 
-  padding-top: 64px;
+  position: relative;
+  top: 4rem;
 }
 
 
@@ -44,10 +46,41 @@ header ul li {
 .banner {
   display: flex;
   background-color: gray;
+
 }
 
 .banner img {
-  width: 60%;
+  width: 60vh;
   height: 60%;
   padding: 2rem 1.5rem;
+}
+
+.banner .banner-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* BUSINESS */
+
+
+.business {
+  display: flex;
+  width:  100%;
+  padding: 2rem 1.5rem;
+}
+
+.business-banner{
+  width: 100%;
+}
+
+.business-banner img{
+  width: 60%;
+  height: 60vh;
+
+}
+
+.business .business-info{
+  width: 40vh;
 }
