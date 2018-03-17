@@ -104,11 +104,18 @@ header ul li {
 
 }
 
-.info img{
+.business .img-cont{
   width: 35%;
-  height: 35%;
-  display:  flex;
 }
+
+.business img{
+  width: 100%;
+}
+
+.business .bocadillo{
+  width: 65%;
+}
+
 
 /*.info h3,
 .info p{
