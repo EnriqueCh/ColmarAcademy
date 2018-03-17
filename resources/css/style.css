@@ -49,16 +49,26 @@ header ul li {
 
 }
 
-.banner img {
-  width: 60vh;
-  height: 60%;
+.banner .img-cont{
+  width: 60%;
   padding: 2rem 1.5rem;
+}
+
+
+.banner img {
+  width: 100%;
+
+
+
 }
 
 .banner .banner-info{
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  width: 40%;
+  text-align: center;
 }
 
 
@@ -68,19 +78,39 @@ header ul li {
 .business {
   display: flex;
   width:  100%;
-  padding: 2rem 1.5rem;
+  padding: 2rem 0;
+
 }
 
 .business-banner{
-  width: 100%;
+  width: 60%;
+  padding: 0 1.5rem;
 }
 
 .business-banner img{
-  width: 60%;
-  height: 60vh;
+  width: 100%;
 
 }
 
 .business .business-info{
-  width: 40vh;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+
+}
+
+.info img{
+  width: 35%;
+  height: 35%;
+  display:  flex;
+}
+
+/*.info h3,
+.info p{
+  width: 65%;
 }
