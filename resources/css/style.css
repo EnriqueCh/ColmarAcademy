@@ -177,6 +177,7 @@ header ul li {
   width: 100%;
   display: flex;
   flex-direction: column;
+
 }
 
 .contenedor{
@@ -186,6 +187,7 @@ header ul li {
 
 .videof {
   width: 60%;
+  margin: 1.5rem 1.5rem
 }
 
 video{
@@ -198,7 +200,7 @@ video{
 
 .tesis-info .img-cont{
   width: 35%;
-  margin: 1rem 1rem;
+
 }
 
 .tesis-info img{
@@ -208,6 +210,8 @@ video{
 
 .tesis .fisma,
 .tesis .research{
+
   display: flex;
+
 
 }
