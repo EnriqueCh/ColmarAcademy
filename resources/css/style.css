@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  background-color: rgba(0,0,0,0.1)
 
 }
 
@@ -79,6 +80,7 @@ header ul li {
   display: flex;
   width:  100%;
   padding: 2rem 0;
+  margin-bottom: 2rem;
 
 }
 
@@ -92,32 +94,91 @@ header ul li {
 
 }
 
-.business .business-info{
+/*business 2*/
+
+.business-info {
   width: 40%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
-.info {
-  display: flex;
-
-}
-
-.business .img-cont{
+.business-info img {
   width: 35%;
+  height: 33.3%;
+  padding: 0 1rem 2rem 1rem;
 }
 
-.business img{
+.business-info .material{
+  display: flex;
+}
+
+.bocadillo{
+  width: 65%;
+}
+
+
+/*main*/
+
+
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+
+
+}
+
+.main h1{
+  padding-top: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+.course {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+
+}
+
+
+.main .curso{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin: 2rem 2rem;
+
+}
+
+.main img{
+  height: auto;
   width: 100%;
+
 }
 
-.business .bocadillo{
-  width: 65%;
+.main .datos{
+  height: 50%;
+  background-color: white;
+  font-size: 1.5rem;
 }
 
 
-/*.info h3,
-.info p{
-  width: 65%;
+/*tesis*/
+
+.tesis {
+  width: 100%;
+  display: flex;
+}
+
+
+.vid-cont video{
+  width: 60%;
 }
