@@ -33,6 +33,10 @@ header .logo {
   font-size: 2rem;
 }
 
+.bold{
+  font-weight: bold;
+}
+
 header ul {
   display: flex;
   padding: 1rem 1.5rem;
@@ -67,10 +71,15 @@ header ul li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   width: 40%;
-  text-align: center;
+  text-align:  left;
 }
+
+.banner-info h1{
+  font-weight: bold;
+  font-size: 3rem;
+  }
+
 
 
 /* BUSINESS */
@@ -213,5 +222,15 @@ video{
 
   display: flex;
 
+}
 
+/*footer*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul{
+  display: flex;
 }
