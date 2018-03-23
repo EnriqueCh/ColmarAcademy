@@ -80,6 +80,12 @@ header ul li {
   font-size: 3rem;
   }
 
+.button {
+  display: inline-block;
+  padding: 1rem 1rem;
+  background-color: red;
+  text-align: center;
+}
 
 
 /* BUSINESS */
@@ -103,6 +109,14 @@ header ul li {
 
 }
 
+.business h2{
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 2rem 0 1.5rem 0;
+}
+
+
+
 /*business 2*/
 
 .business-info {
@@ -124,6 +138,12 @@ header ul li {
 .bocadillo{
   width: 65%;
 }
+
+.business-banner span{
+  display: inline-block;
+  margin-top: 2rem;
+}
+
 
 
 /*main*/
