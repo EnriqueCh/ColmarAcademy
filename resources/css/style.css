@@ -50,7 +50,7 @@ header ul li {
 
 .banner {
   display: flex;
-  background-color: gray;
+  background-color: rgb(179, 179, 255);
 
 }
 
@@ -73,18 +73,24 @@ header ul li {
   justify-content: center;
   width: 40%;
   text-align:  left;
+
 }
 
 .banner-info h1{
   font-weight: bold;
   font-size: 3rem;
+  margin-bottom: 2rem;
+  color: rgb(51, 51, 255);
   }
 
 .button {
   display: inline-block;
   padding: 1rem 1rem;
-  background-color: red;
+  background-color: rgb(51, 51, 255);
   text-align: center;
+  width: 60%;
+  margin: 2rem 0;
+  color: white;
 }
 
 
@@ -113,6 +119,7 @@ header ul li {
   font-size: 2.5rem;
   font-weight: 700;
   padding: 2rem 0 1.5rem 0;
+  color: rgb(255, 179, 236);
 }
 
 
@@ -135,8 +142,18 @@ header ul li {
   display: flex;
 }
 
+
 .bocadillo{
   width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem 2rem;
+}
+
+.bocadillo h3{
+  font-weight: bold;
+  padding-bottom: 0.5rem;
 }
 
 .business-banner span{
@@ -144,6 +161,11 @@ header ul li {
   margin-top: 2rem;
 }
 
+.rosado {
+  background-color: rgb(235, 173, 214);
+  margin-bottom: 2rem;
+
+}
 
 
 /*main*/
@@ -155,7 +177,7 @@ header ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: yellow;
+  background-color: rgb(255, 255, 179);
 
 
 }
@@ -164,6 +186,7 @@ header ul li {
   padding-top: 2rem;
   font-size: 2rem;
   font-weight: bold;
+  color: rgb(255, 153, 0);
 }
 
 
