@@ -95,6 +95,10 @@ header ul li {
   color: white;
 }
 
+.mobile-header {
+  display: none;
+}
+
 
 /* BUSINESS */
 
@@ -209,6 +213,7 @@ header ul li {
 
   align-items: center;
   margin: 2rem 2rem;
+  height: 100%;
 
 }
 
@@ -223,16 +228,23 @@ header ul li {
   background-color: white;
   font-size: 1.5rem;
 
+
 }
 
 .datos h3{
   font-weight: bold;
 }
 
+
+.datos p{
+  font-size: 1rem;
+}
+
 .datos h3,
 .datos span,
 .datos p{
   padding: 1rem 1rem;
+
 }
 
 
