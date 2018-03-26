@@ -1,6 +1,7 @@
 html {
   font-size: 16px;
-  background-color: rgba(0,0,0,0.1)
+  background-color: rgba(0,0,0,0.1);
+  font-family: 'Bree Serif', serif;
 
 }
 
@@ -44,6 +45,7 @@ header ul {
 
 header ul li {
   padding: 0 0.5rem;
+  line-height: 2rem;
 }
 
 /* Banner */
@@ -220,6 +222,17 @@ header ul li {
   height: 50%;
   background-color: white;
   font-size: 1.5rem;
+
+}
+
+.datos h3{
+  font-weight: bold;
+}
+
+.datos h3,
+.datos span,
+.datos p{
+  padding: 1rem 1rem;
 }
 
 
@@ -229,6 +242,7 @@ header ul li {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-bottom: 2rem;
 
 }
 
@@ -237,9 +251,21 @@ header ul li {
   display: flex;
 }
 
+.tesis h1{
+  font-size: 2rem;
+  padding: 2rem 0;
+  font-weight: bold;
+}
+
 .videof {
   width: 60%;
   margin: 1.5rem 1.5rem
+}
+
+.videof h3{
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 1.5rem 0 0.5rem 0;
 }
 
 video{
@@ -248,11 +274,11 @@ video{
 
 .tesis-info {
   width: 40%;
+  padding-top: 0.5rem;
 }
 
 .tesis-info .img-cont{
   width: 35%;
-
 }
 
 .tesis-info img{
@@ -264,7 +290,13 @@ video{
 .tesis .research{
 
   display: flex;
+  padding: 1rem 1rem;
+  align-items: center;
 
+}
+
+.tesis-info .news{
+  padding-left: 1rem;
 }
 
 /*footer*/
@@ -272,8 +304,13 @@ video{
 footer {
   display: flex;
   justify-content: space-between;
+  padding: 1rem 1.5rem;
 }
 
 footer ul{
   display: flex;
+}
+
+footer ul li{
+  padding: 0 0.5rem;
 }
