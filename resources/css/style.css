@@ -124,6 +124,17 @@ header ul li {
   color: white;
 }
 
+@media only screen and (max-width: 480px){
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+  }
+
+
+}
 
 
 /* BUSINESS */
