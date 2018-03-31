@@ -2,8 +2,11 @@ html {
   font-size: 16px;
   background-color: rgba(0,0,0,0.1);
   font-family: 'Bree Serif', serif;
+  overflow-x: hidden;
 
 }
+
+
 
 .upset {
 
@@ -115,7 +118,7 @@ header ul li {
   }
 
 .button {
-  display: inline-block;
+  display: block;
   padding: 1rem 1rem;
   background-color: rgb(51, 51, 255);
   text-align: center;
@@ -129,11 +132,38 @@ header ul li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-
+    align-items: center;
+    width: 100%;
+    margin: 0 0;
   }
 
+  .banner .img-cont {
+    width: 100%;
+  }
 
+  .banner img {
+    width: 100%;
+  }
+
+  .banner .banner-info {
+    width: 100%;
+  }
+
+  .banner-info h1 {
+    padding: 2rem 1rem;
+    font-size: 2rem;
+  }
+
+  .banner-info h3 {
+    padding: 0 1rem;
+    font-size: 1.5rem;
+  }
+
+  .banner-info .button {
+    margin: 1.5rem 1rem 2rem 1rem;
+    width: 80%;
+
+  }
 }
 
 
@@ -210,6 +240,16 @@ header ul li {
 
 }
 
+
+@media only screen and (max-width: 480px){
+  .business-banner {
+    display: none;
+  }
+
+  .business-info {
+    width: 100%;
+  }
+}
 
 /*main*/
 
