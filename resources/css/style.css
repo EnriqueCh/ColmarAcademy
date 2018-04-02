@@ -240,6 +240,10 @@ header ul li {
 
 }
 
+.mobile-img {
+  display: none;
+}
+
 
 @media only screen and (max-width: 480px){
   .business-banner {
@@ -255,10 +259,17 @@ header ul li {
   }
 
   .business-info img{
-    width: 90%;
-
+    display: none;
   }
 
+  .business .mobile-img {
+    display: block;
+    width: 90%;
+  }
+
+  .material {
+    margin-bottom: 1rem;
+  }
 
 
 
