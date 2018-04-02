@@ -271,8 +271,6 @@ header ul li {
     margin-bottom: 1rem;
   }
 
-
-
 }
 
 /*main*/
@@ -346,6 +344,29 @@ header ul li {
 .datos p{
   padding: 1rem 1rem;
 
+}
+
+.mobile-main {
+  display: none;
+}
+
+@media only screen and (max-width: 480px){
+  .course {
+    display: none;
+  }
+
+  .mobile-main{
+    display: block;
+
+
+  }
+
+  .mobile-main h3{
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0.5rem;
+    background-color: rgb(255, 153, 0);
+  }
 }
 
 
