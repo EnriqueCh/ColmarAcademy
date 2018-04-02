@@ -433,6 +433,20 @@ video{
   padding-left: 1rem;
 }
 
+.mobile-vid {
+  display: none;
+}
+
+@media only screen and (max-width: 480px){
+  .tesis .contenedor {
+    display: none;
+  }
+
+  .mobile-vid{
+    display: block;
+  }
+}
+
 /*footer*/
 
 footer {
